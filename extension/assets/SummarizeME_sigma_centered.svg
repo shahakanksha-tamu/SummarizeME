@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- background tile -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#g)"/>
+  <!-- centered Sigma -->
+  <g transform="translate(256,256)" filter="url(#drop)">
+    <text x="0" y="0"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+          font-size="250"
+          font-weight="800"
+          fill="#FFFFFF">Σ</text>
+  </g>
+  <!-- small sparkle accent in the top-right; does not affect centering -->
+  <path d="M420 112l6 18 18 6-18 6-6 18-6-18-18-6 18-6 6-18z" fill="#FFFFFF" opacity=".9"/>
+  <title>SummarizeME — Sigma Centered</title>
+  <desc>Centered Sigma on a rounded gradient tile with a small sparkle accent.</desc>
+</svg>

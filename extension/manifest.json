@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SummarizeME",
+  "version": "0.1.0",
+  "description": "Right-click selected text → Summarize → Show it in the Side Panel.",
+  "permissions": ["contextMenus", "storage", "sidePanel", "activeTab"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "side_panel": { "default_path": "panel/panel.html" },
+  "action": { "default_title": "Summarize", "default_icon": { "16": "assets/icon16.png" } },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}
