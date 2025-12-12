@@ -9,7 +9,7 @@ The system supports generic text summarization and provides configurable summary
 
 ## Demo Video
 
-![System Architecture](assets/SummarizeME%20Recording.mov)
+https://drive.google.com/file/d/1PS1rSf_1QuQ-AMmh1sSottwApywel7AO/view?usp=sharing
 
 ## Repository
 
