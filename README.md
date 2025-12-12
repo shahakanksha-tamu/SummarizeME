@@ -46,15 +46,15 @@ SummarizeME/
  │     ├── panel.js             # Panel logic and API calls
  │     └── panel.css            # Styling
  └── backend/
-       ├── app/
-       |
-       |     ├── config.py          # Hugging Face and model configurations
-       │     ├── main.py            # FastAPI app entry point
-       │     ├── routers/           # API routes
-       │     └── summarizer.py      # Model inference logic
-       |     ├── model_holder.py    # Model Loading from HuggingFace
-       ├── requirements.txt
-       └── model
+ │     ├── app/
+ |      |
+ |      |     ├── config.py          # Hugging Face and model configurations
+ |      │     ├── main.py            # FastAPI app entry point
+ |      │     ├── routers/           # API routes
+ |      │     └── summarizer.py      # Model inference logic
+ |      |     ├── model_holder.py    # Model Loading from HuggingFace
+ |      ├── requirements.txt
+ |__ model/
 ```
 
 ## System Architecture
